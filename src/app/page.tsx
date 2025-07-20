@@ -13,7 +13,7 @@
   import {RequestAirdrop} from "./RequestAirDrop"
   export default function Home() {
     return (
-      <div className="font-sans flex flex-col justify-center items-center space-y-10 mt-30">
+      <div className="font-sans flex flex-col justify-center items-center space-y-10 mt-30 mx-10">
               <ConnectionProvider endpoint={"https://solana-devnet.g.alchemy.com/v2/SjahEKsEsdxAzD0sCBl_V3wVu_H9QJtD"}>
               <WalletProvider wallets={[]} autoConnect>
                   <WalletModalProvider >
